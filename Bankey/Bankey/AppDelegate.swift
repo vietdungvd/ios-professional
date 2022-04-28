@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let onboardingContainerViewController = OnboardingContainerViewController()
     let dummyViewcontroller = DummyViewController()
     let mainViewController = MainViewController()
+    let demoScrollViewController = DemoScrollViewController()
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
@@ -30,7 +31,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         dummyViewcontroller.logoutDelegate = self
         
         //window?.rootViewController = loginViewController
-        window?.rootViewController = mainViewController
+        // window?.rootViewController = mainViewController
+        window?.rootViewController = AccountSummaryViewController()
         //window?.rootViewController = OnboardingContainerViewController()
         //window?.rootViewController = OnboardingViewController(heroImageName: "delorean", titleText: "Bankey is faster, easier to use, and has a brand new look and feel that will make you feel like you are back in 1989.")
 
