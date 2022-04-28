@@ -15,9 +15,9 @@
 		B59309852818F15700A6938F /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59309842818F15700A6938F /* UIViewController+Utils.swift */; };
 		B59309872818F1FF00A6938F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59309862818F1FF00A6938F /* MainViewController.swift */; };
 		B5930993281A4E9200A6938F /* DemoScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5930992281A4E9200A6938F /* DemoScrollViewController.swift */; };
-		B5930998281A840F00A6938F /* AccountSummayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5930997281A840E00A6938F /* AccountSummayViewController.swift */; };
+		B5930998281A840F00A6938F /* AccountSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5930997281A840E00A6938F /* AccountSummaryViewController.swift */; };
 		B593099A281A8D4B00A6938F /* AccountSummaryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5930999281A8D4B00A6938F /* AccountSummaryHeaderView.swift */; };
-		B593099C281A8DEE00A6938F /* AccountSummaryHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B593099B281A8DEE00A6938F /* AccountSummaryHeaderView.xib */; };
+		B593099F281AA6F500A6938F /* AccountSummaryHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B593099E281AA6F500A6938F /* AccountSummaryHeaderView.xib */; };
 		B5B8E169280DBF270025EA41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B8E168280DBF270025EA41 /* AppDelegate.swift */; };
 		B5B8E16D280DBF270025EA41 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B8E16C280DBF270025EA41 /* LoginViewController.swift */; };
 		B5B8E172280DBF2B0025EA41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B8E171280DBF2B0025EA41 /* Assets.xcassets */; };
@@ -33,9 +33,9 @@
 		B59309842818F15700A6938F /* UIViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
 		B59309862818F1FF00A6938F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B5930992281A4E9200A6938F /* DemoScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoScrollViewController.swift; sourceTree = "<group>"; };
-		B5930997281A840E00A6938F /* AccountSummayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummayViewController.swift; sourceTree = "<group>"; };
+		B5930997281A840E00A6938F /* AccountSummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryViewController.swift; sourceTree = "<group>"; };
 		B5930999281A8D4B00A6938F /* AccountSummaryHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryHeaderView.swift; sourceTree = "<group>"; };
-		B593099B281A8DEE00A6938F /* AccountSummaryHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountSummaryHeaderView.xib; sourceTree = "<group>"; };
+		B593099E281AA6F500A6938F /* AccountSummaryHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountSummaryHeaderView.xib; sourceTree = "<group>"; };
 		B5B8E165280DBF270025EA41 /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B8E168280DBF270025EA41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5B8E16C280DBF270025EA41 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -96,9 +96,9 @@
 		B5930996281A838500A6938F /* AccounSummary */ = {
 			isa = PBXGroup;
 			children = (
-				B5930997281A840E00A6938F /* AccountSummayViewController.swift */,
+				B5930997281A840E00A6938F /* AccountSummaryViewController.swift */,
 				B5930999281A8D4B00A6938F /* AccountSummaryHeaderView.swift */,
-				B593099B281A8DEE00A6938F /* AccountSummaryHeaderView.xib */,
+				B593099E281AA6F500A6938F /* AccountSummaryHeaderView.xib */,
 			);
 			path = AccounSummary;
 			sourceTree = "<group>";
@@ -192,7 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B593099C281A8DEE00A6938F /* AccountSummaryHeaderView.xib in Resources */,
+				B593099F281AA6F500A6938F /* AccountSummaryHeaderView.xib in Resources */,
 				B5B8E175280DBF2B0025EA41 /* LaunchScreen.storyboard in Resources */,
 				B5B8E172280DBF2B0025EA41 /* Assets.xcassets in Resources */,
 			);
@@ -208,7 +208,7 @@
 				B593099A281A8D4B00A6938F /* AccountSummaryHeaderView.swift in Sources */,
 				B59309852818F15700A6938F /* UIViewController+Utils.swift in Sources */,
 				B5698C68280EC65E00AB1FCA /* LoginView.swift in Sources */,
-				B5930998281A840F00A6938F /* AccountSummayViewController.swift in Sources */,
+				B5930998281A840F00A6938F /* AccountSummaryViewController.swift in Sources */,
 				B5930993281A4E9200A6938F /* DemoScrollViewController.swift in Sources */,
 				B52CA33F2816F9D1003219F3 /* LocalState.swift in Sources */,
 				B52CA3312812A449003219F3 /* DummyViewController.swift in Sources */,
