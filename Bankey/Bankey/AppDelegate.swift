@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let onboardingContainerViewController = OnboardingContainerViewController()
     let mainViewController = MainViewController()
     let demoScrollViewController = DemoScrollViewController()
+    let formatTextViewController = FormatTextViewController()
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
@@ -28,13 +29,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         loginViewController.delegate = self
         onboardingContainerViewController.delegate = self
         
-        let vc = mainViewController
-        vc.setStatusBar()
+//        let vc = mainViewController
+//        vc.setStatusBar()
+//
+//        UINavigationBar.appearance().isTranslucent = false
+//        UINavigationBar.appearance().backgroundColor = appColor
+//
+//        window?.rootViewController = vc
         
-        UINavigationBar.appearance().isTranslucent = false
-        UINavigationBar.appearance().backgroundColor = appColor
-        
-        window?.rootViewController = vc
+        window?.rootViewController = formatTextViewController
         return true
     }
 }
