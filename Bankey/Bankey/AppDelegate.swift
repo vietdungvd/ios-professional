@@ -29,6 +29,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         loginViewController.delegate = self
         onboardingContainerViewController.delegate = self
         
+//        setRootViewController(demoScrollViewController)
         registerForNotification()
         displayLogin()
         return true

@@ -13,6 +13,12 @@
 		B52CA33F2816F9D1003219F3 /* LocalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52CA33E2816F9D1003219F3 /* LocalState.swift */; };
 		B53011E0283B7D0F0039DD30 /* NSNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53011DF283B7D0F0039DD30 /* NSNotificationName.swift */; };
 		B53011E2283B7FEA0039DD30 /* UITextField+SecureToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53011E1283B7FEA0039DD30 /* UITextField+SecureToggle.swift */; };
+		B55616C02845BFDB006D6FB8 /* LockFeatureFAQ.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55616BF2845BFDB006D6FB8 /* LockFeatureFAQ.storyboard */; };
+		B55616C32845CF47006D6FB8 /* LockFeatureFAQContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55616C22845CF47006D6FB8 /* LockFeatureFAQContentCell.swift */; };
+		B55616C52845CF77006D6FB8 /* LockFeatureFAQQuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55616C42845CF77006D6FB8 /* LockFeatureFAQQuestionCell.swift */; };
+		B55616D02845D43D006D6FB8 /* UIColor+LightAndDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B55616CF2845D43D006D6FB8 /* UIColor+LightAndDark.m */; };
+		B55616D22845D4BA006D6FB8 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = B55616D12845D4BA006D6FB8 /* Util.m */; };
+		B55616D62845F53B006D6FB8 /* LockFeatureFAQDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55616D52845F53B006D6FB8 /* LockFeatureFAQDetailViewController.swift */; };
 		B5698C68280EC65E00AB1FCA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5698C67280EC65E00AB1FCA /* LoginView.swift */; };
 		B59309852818F15700A6938F /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59309842818F15700A6938F /* UIViewController+Utils.swift */; };
 		B59309872818F1FF00A6938F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59309862818F1FF00A6938F /* MainViewController.swift */; };
@@ -48,6 +54,15 @@
 		B52CA33E2816F9D1003219F3 /* LocalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalState.swift; sourceTree = "<group>"; };
 		B53011DF283B7D0F0039DD30 /* NSNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotificationName.swift; sourceTree = "<group>"; };
 		B53011E1283B7FEA0039DD30 /* UITextField+SecureToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+SecureToggle.swift"; sourceTree = "<group>"; };
+		B55616BF2845BFDB006D6FB8 /* LockFeatureFAQ.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LockFeatureFAQ.storyboard; sourceTree = "<group>"; };
+		B55616C22845CF47006D6FB8 /* LockFeatureFAQContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockFeatureFAQContentCell.swift; sourceTree = "<group>"; };
+		B55616C42845CF77006D6FB8 /* LockFeatureFAQQuestionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockFeatureFAQQuestionCell.swift; sourceTree = "<group>"; };
+		B55616CA2845D3E9006D6FB8 /* UIColor+LightAndDark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+LightAndDark.h"; sourceTree = "<group>"; };
+		B55616CB2845D421006D6FB8 /* Bankey-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bankey-Bridging-Header.h"; sourceTree = "<group>"; };
+		B55616CF2845D43D006D6FB8 /* UIColor+LightAndDark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LightAndDark.m"; sourceTree = "<group>"; };
+		B55616D12845D4BA006D6FB8 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		B55616D32845D4D6006D6FB8 /* Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		B55616D52845F53B006D6FB8 /* LockFeatureFAQDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockFeatureFAQDetailViewController.swift; sourceTree = "<group>"; };
 		B5698C67280EC65E00AB1FCA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		B59309842818F15700A6938F /* UIViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
 		B59309862818F1FF00A6938F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +124,37 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		B55616BE2845BF96006D6FB8 /* LockFeatureFAQDeail */ = {
+			isa = PBXGroup;
+			children = (
+				B55616D42845F4D3006D6FB8 /* DetailViewController */,
+				B55616BF2845BFDB006D6FB8 /* LockFeatureFAQ.storyboard */,
+				B55616C22845CF47006D6FB8 /* LockFeatureFAQContentCell.swift */,
+				B55616C42845CF77006D6FB8 /* LockFeatureFAQQuestionCell.swift */,
+			);
+			path = LockFeatureFAQDeail;
+			sourceTree = "<group>";
+		};
+		B55616C82845D3C2006D6FB8 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				B55616CA2845D3E9006D6FB8 /* UIColor+LightAndDark.h */,
+				B55616CF2845D43D006D6FB8 /* UIColor+LightAndDark.m */,
+				B55616D32845D4D6006D6FB8 /* Util.h */,
+				B55616D12845D4BA006D6FB8 /* Util.m */,
+				B55616CB2845D421006D6FB8 /* Bankey-Bridging-Header.h */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		B55616D42845F4D3006D6FB8 /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B55616D52845F53B006D6FB8 /* LockFeatureFAQDetailViewController.swift */,
+			);
+			path = DetailViewController;
+			sourceTree = "<group>";
+		};
 		B5698C62280EC50900AB1FCA /* Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +206,8 @@
 		B5B8E167280DBF270025EA41 /* Bankey */ = {
 			isa = PBXGroup;
 			children = (
+				B55616C82845D3C2006D6FB8 /* Lib */,
+				B55616BE2845BF96006D6FB8 /* LockFeatureFAQDeail */,
 				B5B8E168280DBF270025EA41 /* AppDelegate.swift */,
 				B59309862818F1FF00A6938F /* MainViewController.swift */,
 				B5698C66280EC63100AB1FCA /* Login */,
@@ -256,6 +304,7 @@
 				TargetAttributes = {
 					B5B8E164280DBF270025EA41 = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 					};
 					B5F6410B282CC00B007EA2F0 = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -288,6 +337,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B55616C02845BFDB006D6FB8 /* LockFeatureFAQ.storyboard in Resources */,
 				B593099F281AA6F500A6938F /* AccountSummaryHeaderView.xib in Resources */,
 				B5B8E175280DBF2B0025EA41 /* LaunchScreen.storyboard in Resources */,
 				B5B8E172280DBF2B0025EA41 /* Assets.xcassets in Resources */,
@@ -308,6 +358,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B55616C52845CF77006D6FB8 /* LockFeatureFAQQuestionCell.swift in Sources */,
 				B593099A281A8D4B00A6938F /* AccountSummaryHeaderView.swift in Sources */,
 				B53011E0283B7D0F0039DD30 /* NSNotificationName.swift in Sources */,
 				B5EB9B66281BC6B600B79DCB /* AccountSummaryCell.swift in Sources */,
@@ -317,13 +368,17 @@
 				B5930998281A840F00A6938F /* AccountSummaryViewController.swift in Sources */,
 				B5EB9B6F2824FD3700B79DCB /* FormatTextViewController.swift in Sources */,
 				B53011E2283B7FEA0039DD30 /* UITextField+SecureToggle.swift in Sources */,
+				B55616D02845D43D006D6FB8 /* UIColor+LightAndDark.m in Sources */,
 				B5930993281A4E9200A6938F /* DemoScrollViewController.swift in Sources */,
+				B55616D62845F53B006D6FB8 /* LockFeatureFAQDetailViewController.swift in Sources */,
+				B55616C32845CF47006D6FB8 /* LockFeatureFAQContentCell.swift in Sources */,
 				B52CA33F2816F9D1003219F3 /* LocalState.swift in Sources */,
 				B5EB9B682823B92C00B79DCB /* Decimal+Utils.swift in Sources */,
 				B52CA3312812A449003219F3 /* DummyViewController.swift in Sources */,
 				B5B8E16D280DBF270025EA41 /* LoginViewController.swift in Sources */,
 				B52CA32D28115727003219F3 /* OnboardingViewController.swift in Sources */,
 				B59309872818F1FF00A6938F /* MainViewController.swift in Sources */,
+				B55616D22845D4BA006D6FB8 /* Util.m in Sources */,
 				B5B8E169280DBF270025EA41 /* AppDelegate.swift in Sources */,
 				B52CA32A28113811003219F3 /* OnboardingContainerViewController.swift in Sources */,
 			);
@@ -480,6 +535,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -496,6 +552,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Bankey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bankey/Lib/Bankey-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -506,6 +564,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -522,6 +581,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Bankey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bankey/Lib/Bankey-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
