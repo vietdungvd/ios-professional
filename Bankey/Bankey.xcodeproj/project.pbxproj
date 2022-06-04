@@ -13,6 +13,7 @@
 		B52CA33F2816F9D1003219F3 /* LocalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52CA33E2816F9D1003219F3 /* LocalState.swift */; };
 		B53011E0283B7D0F0039DD30 /* NSNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53011DF283B7D0F0039DD30 /* NSNotificationName.swift */; };
 		B53011E2283B7FEA0039DD30 /* UITextField+SecureToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53011E1283B7FEA0039DD30 /* UITextField+SecureToggle.swift */; };
+		B540E82D284AFE1E007227E5 /* ShakeyBellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B540E82C284AFE1E007227E5 /* ShakeyBellView.swift */; };
 		B55616C02845BFDB006D6FB8 /* LockFeatureFAQ.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55616BF2845BFDB006D6FB8 /* LockFeatureFAQ.storyboard */; };
 		B55616C32845CF47006D6FB8 /* LockFeatureFAQContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55616C22845CF47006D6FB8 /* LockFeatureFAQContentCell.swift */; };
 		B55616C52845CF77006D6FB8 /* LockFeatureFAQQuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55616C42845CF77006D6FB8 /* LockFeatureFAQQuestionCell.swift */; };
@@ -54,6 +55,7 @@
 		B52CA33E2816F9D1003219F3 /* LocalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalState.swift; sourceTree = "<group>"; };
 		B53011DF283B7D0F0039DD30 /* NSNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotificationName.swift; sourceTree = "<group>"; };
 		B53011E1283B7FEA0039DD30 /* UITextField+SecureToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+SecureToggle.swift"; sourceTree = "<group>"; };
+		B540E82C284AFE1E007227E5 /* ShakeyBellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeyBellView.swift; sourceTree = "<group>"; };
 		B55616BF2845BFDB006D6FB8 /* LockFeatureFAQ.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LockFeatureFAQ.storyboard; sourceTree = "<group>"; };
 		B55616C22845CF47006D6FB8 /* LockFeatureFAQContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockFeatureFAQContentCell.swift; sourceTree = "<group>"; };
 		B55616C42845CF77006D6FB8 /* LockFeatureFAQQuestionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockFeatureFAQQuestionCell.swift; sourceTree = "<group>"; };
@@ -122,6 +124,14 @@
 				B53011DF283B7D0F0039DD30 /* NSNotificationName.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		B540E82B284AFDD4007227E5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B540E82C284AFE1E007227E5 /* ShakeyBellView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		B55616BE2845BF96006D6FB8 /* LockFeatureFAQDeail */ = {
@@ -214,6 +224,7 @@
 				B52CA328281137A8003219F3 /* OnBoarding */,
 				B5930996281A838500A6938F /* AccounSummary */,
 				B52CA33D2816F8B0003219F3 /* Utils */,
+				B540E82B284AFDD4007227E5 /* Components */,
 				B5698C62280EC50900AB1FCA /* Files */,
 				B5EB9B6D2824FCDB00B79DCB /* dumm */,
 				B5930992281A4E9200A6938F /* DemoScrollViewController.swift */,
@@ -372,6 +383,7 @@
 				B5930993281A4E9200A6938F /* DemoScrollViewController.swift in Sources */,
 				B55616D62845F53B006D6FB8 /* LockFeatureFAQDetailViewController.swift in Sources */,
 				B55616C32845CF47006D6FB8 /* LockFeatureFAQContentCell.swift in Sources */,
+				B540E82D284AFE1E007227E5 /* ShakeyBellView.swift in Sources */,
 				B52CA33F2816F9D1003219F3 /* LocalState.swift in Sources */,
 				B5EB9B682823B92C00B79DCB /* Decimal+Utils.swift in Sources */,
 				B52CA3312812A449003219F3 /* DummyViewController.swift in Sources */,
