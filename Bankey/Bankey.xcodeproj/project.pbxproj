@@ -14,6 +14,8 @@
 		B53011E0283B7D0F0039DD30 /* NSNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53011DF283B7D0F0039DD30 /* NSNotificationName.swift */; };
 		B53011E2283B7FEA0039DD30 /* UITextField+SecureToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53011E1283B7FEA0039DD30 /* UITextField+SecureToggle.swift */; };
 		B540E82D284AFE1E007227E5 /* ShakeyBellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B540E82C284AFE1E007227E5 /* ShakeyBellView.swift */; };
+		B540E831284DE0B2007227E5 /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B540E830284DE0B2007227E5 /* Date+Utils.swift */; };
+		B540E833284DE23E007227E5 /* AccountSummaryViewController+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B540E832284DE23E007227E5 /* AccountSummaryViewController+Networking.swift */; };
 		B55616C02845BFDB006D6FB8 /* LockFeatureFAQ.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55616BF2845BFDB006D6FB8 /* LockFeatureFAQ.storyboard */; };
 		B55616C32845CF47006D6FB8 /* LockFeatureFAQContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55616C22845CF47006D6FB8 /* LockFeatureFAQContentCell.swift */; };
 		B55616C52845CF77006D6FB8 /* LockFeatureFAQQuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55616C42845CF77006D6FB8 /* LockFeatureFAQQuestionCell.swift */; };
@@ -56,6 +58,8 @@
 		B53011DF283B7D0F0039DD30 /* NSNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotificationName.swift; sourceTree = "<group>"; };
 		B53011E1283B7FEA0039DD30 /* UITextField+SecureToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+SecureToggle.swift"; sourceTree = "<group>"; };
 		B540E82C284AFE1E007227E5 /* ShakeyBellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeyBellView.swift; sourceTree = "<group>"; };
+		B540E830284DE0B2007227E5 /* Date+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
+		B540E832284DE23E007227E5 /* AccountSummaryViewController+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccountSummaryViewController+Networking.swift"; sourceTree = "<group>"; };
 		B55616BF2845BFDB006D6FB8 /* LockFeatureFAQ.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LockFeatureFAQ.storyboard; sourceTree = "<group>"; };
 		B55616C22845CF47006D6FB8 /* LockFeatureFAQContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockFeatureFAQContentCell.swift; sourceTree = "<group>"; };
 		B55616C42845CF77006D6FB8 /* LockFeatureFAQQuestionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockFeatureFAQQuestionCell.swift; sourceTree = "<group>"; };
@@ -122,6 +126,7 @@
 				B5EB9B672823B92C00B79DCB /* Decimal+Utils.swift */,
 				B5EB9B692823BE4600B79DCB /* CurrencyFormatter.swift */,
 				B53011DF283B7D0F0039DD30 /* NSNotificationName.swift */,
+				B540E830284DE0B2007227E5 /* Date+Utils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -189,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				B5930997281A840E00A6938F /* AccountSummaryViewController.swift */,
+				B540E832284DE23E007227E5 /* AccountSummaryViewController+Networking.swift */,
 				B5EB9B63281BC61D00B79DCB /* Header */,
 				B5EB9B64281BC66E00B79DCB /* Cells */,
 			);
@@ -386,9 +392,11 @@
 				B540E82D284AFE1E007227E5 /* ShakeyBellView.swift in Sources */,
 				B52CA33F2816F9D1003219F3 /* LocalState.swift in Sources */,
 				B5EB9B682823B92C00B79DCB /* Decimal+Utils.swift in Sources */,
+				B540E833284DE23E007227E5 /* AccountSummaryViewController+Networking.swift in Sources */,
 				B52CA3312812A449003219F3 /* DummyViewController.swift in Sources */,
 				B5B8E16D280DBF270025EA41 /* LoginViewController.swift in Sources */,
 				B52CA32D28115727003219F3 /* OnboardingViewController.swift in Sources */,
+				B540E831284DE0B2007227E5 /* Date+Utils.swift in Sources */,
 				B59309872818F1FF00A6938F /* MainViewController.swift in Sources */,
 				B55616D22845D4BA006D6FB8 /* Util.m in Sources */,
 				B5B8E169280DBF270025EA41 /* AppDelegate.swift in Sources */,
