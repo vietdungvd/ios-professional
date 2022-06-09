@@ -27,6 +27,9 @@
 		B55616D22845D4BA006D6FB8 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = B55616D12845D4BA006D6FB8 /* Util.m */; };
 		B55616D62845F53B006D6FB8 /* LockFeatureFAQDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55616D52845F53B006D6FB8 /* LockFeatureFAQDetailViewController.swift */; };
 		B5698C68280EC65E00AB1FCA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5698C67280EC65E00AB1FCA /* LoginView.swift */; };
+		B57323CF2850539500C80E9E /* DeleteAccountInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57323CE2850539500C80E9E /* DeleteAccountInfoViewController.swift */; };
+		B57323F128519B5000C80E9E /* MyAccountVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57323F028519B5000C80E9E /* MyAccountVC.storyboard */; };
+		B58FBFA128504B280032501C /* DeleteAccountInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58FBFA028504B280032501C /* DeleteAccountInfo.storyboard */; };
 		B59309852818F15700A6938F /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59309842818F15700A6938F /* UIViewController+Utils.swift */; };
 		B59309872818F1FF00A6938F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59309862818F1FF00A6938F /* MainViewController.swift */; };
 		B5930993281A4E9200A6938F /* DemoScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5930992281A4E9200A6938F /* DemoScrollViewController.swift */; };
@@ -78,6 +81,9 @@
 		B55616D32845D4D6006D6FB8 /* Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
 		B55616D52845F53B006D6FB8 /* LockFeatureFAQDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockFeatureFAQDetailViewController.swift; sourceTree = "<group>"; };
 		B5698C67280EC65E00AB1FCA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B57323CE2850539500C80E9E /* DeleteAccountInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteAccountInfoViewController.swift; sourceTree = "<group>"; };
+		B57323F028519B5000C80E9E /* MyAccountVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyAccountVC.storyboard; sourceTree = "<group>"; };
+		B58FBFA028504B280032501C /* DeleteAccountInfo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DeleteAccountInfo.storyboard; sourceTree = "<group>"; };
 		B59309842818F15700A6938F /* UIViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
 		B59309862818F1FF00A6938F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B5930992281A4E9200A6938F /* DemoScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoScrollViewController.swift; sourceTree = "<group>"; };
@@ -215,6 +221,25 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		B58FBF9E28504AA60032501C /* ML */ = {
+			isa = PBXGroup;
+			children = (
+				B58FBF9F28504AE20032501C /* DeleteAccount */,
+				B55616BE2845BF96006D6FB8 /* LockFeatureFAQDeail */,
+			);
+			path = ML;
+			sourceTree = "<group>";
+		};
+		B58FBF9F28504AE20032501C /* DeleteAccount */ = {
+			isa = PBXGroup;
+			children = (
+				B58FBFA028504B280032501C /* DeleteAccountInfo.storyboard */,
+				B57323F028519B5000C80E9E /* MyAccountVC.storyboard */,
+				B57323CE2850539500C80E9E /* DeleteAccountInfoViewController.swift */,
+			);
+			path = DeleteAccount;
+			sourceTree = "<group>";
+		};
 		B5930996281A838500A6938F /* AccounSummary */ = {
 			isa = PBXGroup;
 			children = (
@@ -248,7 +273,7 @@
 			isa = PBXGroup;
 			children = (
 				B55616C82845D3C2006D6FB8 /* Lib */,
-				B55616BE2845BF96006D6FB8 /* LockFeatureFAQDeail */,
+				B58FBF9E28504AA60032501C /* ML */,
 				B5B8E168280DBF270025EA41 /* AppDelegate.swift */,
 				B59309862818F1FF00A6938F /* MainViewController.swift */,
 				B5698C66280EC63100AB1FCA /* Login */,
@@ -382,10 +407,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B58FBFA128504B280032501C /* DeleteAccountInfo.storyboard in Resources */,
 				B55616C02845BFDB006D6FB8 /* LockFeatureFAQ.storyboard in Resources */,
 				B593099F281AA6F500A6938F /* AccountSummaryHeaderView.xib in Resources */,
 				B5B8E175280DBF2B0025EA41 /* LaunchScreen.storyboard in Resources */,
 				B5B8E172280DBF2B0025EA41 /* Assets.xcassets in Resources */,
+				B57323F128519B5000C80E9E /* MyAccountVC.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +451,7 @@
 				B540E833284DE23E007227E5 /* AccountSummaryViewController+Networking.swift in Sources */,
 				B52CA3312812A449003219F3 /* DummyViewController.swift in Sources */,
 				B5B8E16D280DBF270025EA41 /* LoginViewController.swift in Sources */,
+				B57323CF2850539500C80E9E /* DeleteAccountInfoViewController.swift in Sources */,
 				B52CA32D28115727003219F3 /* OnboardingViewController.swift in Sources */,
 				B521E265284F0B75009E89D8 /* SkeletonCell.swift in Sources */,
 				B540E831284DE0B2007227E5 /* Date+Utils.swift in Sources */,
